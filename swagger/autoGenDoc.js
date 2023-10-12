@@ -23,13 +23,14 @@ let doc = {
         description: "Documentação da API da GameList."
     },
     servers: [
+        
+        {
+            url: "https://game-list-back.vercel.app/doc/",
+            description: "Servidor de produção."
+        },
         {
             url: "http://localhost:4000/",
             description: "Servidor localhost."
-        },
-        {
-            url: "https://GameList.vercel.app/",
-            description: "Servidor de produção."
         }
     ],
     consumes: ['application/json'],
