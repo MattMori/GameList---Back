@@ -25,7 +25,7 @@ let doc = {
     servers: [
         
         {
-            url: "https://game-list-back.vercel.app/doc/",
+            url: "https://game-list-back.vercel.app/",
             description: "Servidor de produção."
         },
         {
